@@ -11,6 +11,14 @@ PG_BIN=/opt/homebrew/opt/postgresql@16/bin
 
 mkdir -p "$LOGS"
 
+# ── Load environment variables from .env if present ───────────────────────────
+if [ -f "$ROOT/.env" ]; then
+  set -a
+  # shellcheck source=/dev/null
+  source "$ROOT/.env"
+  set +a
+fi
+
 # ── Colours ───────────────────────────────────────────────────────────────────
 GREEN='\033[0;32m'; YELLOW='\033[1;33m'; RED='\033[0;31m'; NC='\033[0m'
 info()  { echo -e "${GREEN}▶ $*${NC}"; }

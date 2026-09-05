@@ -1,2 +1,738 @@
 INFO:     Will watch for changes in these directories: ['/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend']
 ERROR:    [Errno 48] Address already in use
+INFO:     Will watch for changes in these directories: ['/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend']
+ERROR:    [Errno 48] Address already in use
+INFO:     Will watch for changes in these directories: ['/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [71619] using WatchFiles
+INFO:     Started server process [71643]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"request_id": "31836eab-0dd8-4edb-92da-36a0256f3e5d", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 45, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:33.949030Z"}
+{"request_id": "38813197-6b17-4302-ac40-8ec9c3ad6d5e", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 46, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:33.949142Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "82145496-20fc-41d1-bff5-676a3da5cb4f", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 46, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:33.950505Z"}
+INFO:     127.0.0.1:61325 - "GET /api/healing-events?run_id=06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 200 OK
+{"request_id": "0b6fae3c-f236-4403-b693-d7577d4ebb80", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:34.957948Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "25006182-6f38-4b0b-8137-00ca36920b40", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:34.958442Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "b1144267-36fd-441e-8f81-66074525379e", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:37.968012Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "99e8ec6a-0389-464c-8350-ffc55fbfae2d", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:38.969839Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "db8e941b-dfac-440b-9cf4-45cb7fbf7ad9", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:38.977155Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "07b10cfa-adc7-4b1c-93a0-1eba4028a973", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:39.978247Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "3425a52c-a940-4044-9157-108d6fcce7cb", "method": "GET", "path": "/api/health", "status_code": 404, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:40.046176Z"}
+INFO:     127.0.0.1:61330 - "GET /api/health HTTP/1.1" 404 Not Found
+{"request_id": "7d70aec7-69e8-44ef-a3e1-47b1a04993b6", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:41.990336Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "c3d2f440-9cff-41d3-aab8-9e08c74c1b2f", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:43.003936Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "51b4cbd7-91ed-4845-96ce-fa673f2c7b77", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:43.989657Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "e2cfdce8-bd51-453d-a59f-2c87bcc4e817", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:45.001651Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "037b6b14-24d8-4c3c-8bcb-5a90776f5c39", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:46.016713Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "4269b5ad-4c75-4720-b340-aa348711cbcb", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:47.030135Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "c49348c3-377a-48bc-ac71-8328c8924f94", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:49.015229Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "f63a3741-3788-42f9-8664-9778b0d4d6b4", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:50.026176Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "7b548da8-2b18-4ef6-9f81-97232686136f", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:50.040734Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "670b8e1c-45b8-44d4-a78e-3225ee018e68", "method": "GET", "path": "/health", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:50.261413Z"}
+INFO:     127.0.0.1:61334 - "GET /health HTTP/1.1" 200 OK
+{"request_id": "7024ee2f-a9df-40dc-9489-f02b2cb0176d", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:51.052394Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "83c36756-8864-4d77-8798-5cb1e3f34bc0", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:54.034262Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "d9dab727-4f1e-47f2-9f24-efd2334a598c", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:54.060426Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "c38df41e-cc4d-47c3-baed-f6238cbdd81c", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:55.045410Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "afdb118d-c9de-4352-8d21-d7ae1782d8bc", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:55.070164Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "2fc29ee5-ac37-4015-806f-4199153c2abc", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:58.082928Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "e497e3ee-7a9a-4710-adf2-a49aa98f9e69", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:59.057311Z"}
+INFO:     127.0.0.1:61324 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "6d28dc8e-282d-4c16-81a8-946406712f04", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:59.095873Z"}
+INFO:     127.0.0.1:61317 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "82400602-c550-4d3f-a42b-6313036081ac", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 39, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:59.653003Z"}
+INFO:     127.0.0.1:61325 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "f3ddd727-a604-4fa2-87d4-efe356e19a6f", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 40, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:36:59.654178Z"}
+INFO:     127.0.0.1:61324 - "GET /api/healing-events HTTP/1.1" 200 OK
+{"request_id": "76bfbfa1-6152-4814-870f-9d945274977a", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:01.000481Z"}
+INFO:     127.0.0.1:61317 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "8e126b0e-4b63-4732-bf8e-3db5ff9db4f7", "method": "OPTIONS", "path": "/api/projects", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:06.305227Z"}
+INFO:     127.0.0.1:61344 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+{"request_id": "5dd8cb6a-e92b-4e07-8a89-a19cf6352d88", "method": "POST", "path": "/api/projects", "status_code": 201, "duration_ms": 14, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:06.323140Z"}
+INFO:     127.0.0.1:61344 - "POST /api/projects HTTP/1.1" 201 Created
+{"request_id": "1ad463f0-de8b-4bc9-a763-dfa58badbbbe", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:06.334586Z"}
+INFO:     127.0.0.1:61344 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "b9f1f829-8ebd-41c4-8946-546919ec5a71", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:07.743351Z"}
+INFO:     127.0.0.1:61344 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "19a7768a-cf5b-460a-a608-975c3ed3de34", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:07.746063Z"}
+INFO:     127.0.0.1:61345 - "GET /api/applications?project_id=571334cb-0fd2-4d38-ba43-0db7390e568d HTTP/1.1" 200 OK
+{"request_id": "e86c38ba-91e6-47c0-9f5c-cd82fe77c7ad", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:09.221387Z"}
+INFO:     127.0.0.1:61344 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "cb233589-3c10-48a1-a91a-60c738c437bf", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 33, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:16.586127Z"}
+INFO:     127.0.0.1:61347 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "3b3fb51f-86b5-44dd-a674-f70651f59517", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:18.505695Z"}
+INFO:     127.0.0.1:61347 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "5c86c338-c954-46c8-8f94-41b34af1c680", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:21.304971Z"}
+INFO:     127.0.0.1:61347 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "44726626-246b-4b26-9398-d3275f7e8c87", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:22.088569Z"}
+INFO:     127.0.0.1:61347 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "9e6d4860-3b48-4b21-844a-4d83d1ef8e72", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:22.321214Z"}
+INFO:     127.0.0.1:61347 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "a4a11274-a528-435e-aaee-d856f2db433f", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:28.825074Z"}
+INFO:     127.0.0.1:61351 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "ae750853-c36e-4cf1-8340-73ef58c2bdd8", "method": "GET", "path": "/docs", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:34.538756Z"}
+INFO:     127.0.0.1:61353 - "GET /docs HTTP/1.1" 200 OK
+{"request_id": "078f48cd-c770-4107-851f-3b5b5aa8b89d", "method": "GET", "path": "/openapi.json", "status_code": 200, "duration_ms": 23, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:34.620556Z"}
+INFO:     127.0.0.1:61353 - "GET /openapi.json HTTP/1.1" 200 OK
+{"request_id": "0e6adcfb-8593-4e06-8934-aa537240b7e9", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:37:52.776122Z"}
+INFO:     127.0.0.1:61387 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "3ab2bf46-cd4f-45c3-8b7d-834b39f12cea", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:12.562747Z"}
+{"request_id": "ab0f7b1e-56fd-4855-b76f-3f22da82629a", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:12.562974Z"}
+INFO:     127.0.0.1:61397 - "GET /api/healing-events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61396 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "93c5aad0-a4c7-4505-b8d9-c6471d059e71", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:14.281632Z"}
+INFO:     127.0.0.1:61397 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "6940005b-742d-4b80-b6b0-aad7ce396f6e", "method": "POST", "path": "/api/projects", "status_code": 201, "duration_ms": 8, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:19.457460Z"}
+INFO:     127.0.0.1:61399 - "POST /api/projects HTTP/1.1" 201 Created
+{"request_id": "40e08d22-bdfe-4333-904c-b784aab7c5e9", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:19.466777Z"}
+INFO:     127.0.0.1:61399 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "d7b47887-4897-4f8c-9fcb-d84d1b5e79b4", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:20.393312Z"}
+INFO:     127.0.0.1:61399 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "e42b6fd1-6816-413f-8102-77a286679614", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:20.394763Z"}
+INFO:     127.0.0.1:61400 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "3e1ac66e-b4f5-4e3c-beb0-15eac69fc8aa", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:28.990737Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "fed6cc50-9aff-4102-8373-c64a03965c34", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:29.588102Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "0471b56f-b1e9-4e87-ac4e-a0502dfef982", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:29.754910Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "a6f4889a-2ac7-4d66-ae33-4238200dd967", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:29.902876Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "58af3acb-7bd9-4728-9a00-8dd4b4aac108", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:30.054957Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "4fd2d0d9-85c1-46dc-ace0-67c31d4f865d", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:30.186844Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "138a96d5-a6e8-4d4c-a083-f6ad73f4af17", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:30.321062Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "3209d372-d457-47b7-ad41-54530bfcb955", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:30.453173Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "20539adb-54ce-4efd-8629-d8b6f063a424", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:30.586974Z"}
+INFO:     127.0.0.1:61402 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "25390987-8794-4e8d-a497-b399fa7f7419", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:36.212398Z"}
+INFO:     127.0.0.1:61404 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "dde784cd-7df6-4974-a0c4-aa135edbf7f9", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:39.592369Z"}
+INFO:     127.0.0.1:61404 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "97b30393-ee5d-4173-ba66-2e84fd1057a8", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:41.576259Z"}
+INFO:     127.0.0.1:61404 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "eb222af9-ae23-442c-91b5-34992503b84a", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:41.577816Z"}
+INFO:     127.0.0.1:61405 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "caed62e9-c7f6-4a6e-b9fb-3efe32d2b7e9", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:38:54.623758Z"}
+INFO:     127.0.0.1:61409 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "a65ce888-56fd-4dda-be19-ed618af6f266", "method": "GET", "path": "/openapi.json", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:01.742146Z"}
+INFO:     127.0.0.1:61411 - "GET /openapi.json HTTP/1.1" 200 OK
+{"request_id": "67b98130-38a1-434a-af2d-cd179e8879fe", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:02.771208Z"}
+INFO:     127.0.0.1:61411 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "9c1d1c17-0960-4aca-8211-fea9152a4112", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:02.772056Z"}
+INFO:     127.0.0.1:61417 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+{"request_id": "1be80fda-a7d0-4f70-9f84-f78118d4194d", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:02.773117Z"}
+INFO:     127.0.0.1:61418 - "GET /api/healing-events?run_id=06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 200 OK
+{"request_id": "e09069ab-c7e5-441d-af8c-63465e5a0dae", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:03.782874Z"}
+{"request_id": "ee375c6e-de24-427a-96a7-53f7369bc2d3", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:03.783077Z"}
+INFO:     127.0.0.1:61417 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1/results HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61411 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "ad4f8c9f-21e3-4db6-8f2f-3c3b7c990d0c", "method": "GET", "path": "/api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1", "status_code": 404, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:15.931457Z"}
+INFO:     127.0.0.1:61421 - "GET /api/runs/06a61b12-278d-4c33-b8fa-cff1b527f3e1 HTTP/1.1" 404 Not Found
+{"request_id": "d7054d79-a535-4bc6-8de2-1d335ce9437d", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:15.997879Z"}
+INFO:     127.0.0.1:61421 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "acda8f25-2a7f-4bf7-849c-6d927d15ab9f", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:17.805714Z"}
+INFO:     127.0.0.1:61421 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "b72a3935-0ae6-4116-a07d-25107442e5df", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:17.806429Z"}
+INFO:     127.0.0.1:61422 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "dc2ae527-cfa2-418d-afcd-f6273353550a", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:22.692126Z"}
+INFO:     127.0.0.1:61421 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "8f3fcf9d-61bc-4baf-a8f2-3571ae23ac57", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:23.321025Z"}
+INFO:     127.0.0.1:61421 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "a3f81141-da55-4779-ae9c-ff7062918d73", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:23.521310Z"}
+INFO:     127.0.0.1:61421 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "4d53db4e-ef27-4d39-b057-0422f302c91f", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:23.686341Z"}
+INFO:     127.0.0.1:61421 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "f500e917-d47e-4941-97ab-d940331382c0", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:23.869970Z"}
+INFO:     127.0.0.1:61421 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "34b49c46-1a48-456e-84c1-c8682567bbd7", "method": "GET", "path": "/openapi.json", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:25.635732Z"}
+INFO:     127.0.0.1:61421 - "GET /openapi.json HTTP/1.1" 200 OK
+{"request_id": "5788ef97-21c9-4baf-a741-eb0bed61b091", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:26.421360Z"}
+INFO:     127.0.0.1:61421 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "103bafa3-29a2-4467-b7da-8dc2082968b8", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:26.422309Z"}
+INFO:     127.0.0.1:61430 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "f35928ce-4c72-4dd6-b31f-46e966c6e395", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:26.602000Z"}
+{"request_id": "57fb342a-ed90-4724-80b2-e23cb55286f0", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:26.602220Z"}
+INFO:     127.0.0.1:61430 - "GET /api/applications?project_id=571334cb-0fd2-4d38-ba43-0db7390e568d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61421 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "a80e3687-b2f6-4fb4-9c86-94c90efddd9d", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:26.784300Z"}
+INFO:     127.0.0.1:61430 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "1d153a95-f330-49e3-b361-006466acfd25", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:29.596332Z"}
+INFO:     127.0.0.1:61421 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "0952124b-7a22-47aa-b767-896c2166a5b6", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:30.191134Z"}
+INFO:     127.0.0.1:61430 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "2c9b2529-0041-40d3-a27a-a03d9b8fb69b", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:36.757527Z"}
+INFO:     127.0.0.1:61436 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "42d85350-1e67-437c-a5c7-415b93e04676", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:37.583260Z"}
+{"request_id": "0caf6fc4-64a2-46f7-af75-b2a37c178678", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:37.583584Z"}
+INFO:     127.0.0.1:61436 - "GET /api/runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61437 - "GET /api/healing-events HTTP/1.1" 200 OK
+{"request_id": "0c34eeb2-7e48-47c6-af14-5a8dd640b2d1", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:38.609592Z"}
+{"request_id": "d5156e26-7c2c-4933-9709-a057466873d5", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:38.609888Z"}
+INFO:     127.0.0.1:61437 - "GET /api/healing-events HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "0ac3d56e-7f3e-4dfc-ba7d-31ad86115f42", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:40.364127Z"}
+INFO:     127.0.0.1:61437 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "d201db4c-b6a9-4677-8f58-868bac81018a", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:41.685804Z"}
+INFO:     127.0.0.1:61436 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "d452a9c0-50f7-4f62-8ad6-bae64797fd1c", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:44.941690Z"}
+{"request_id": "2ef2a0a5-b288-4267-b7ac-5aff01886d49", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:44.942032Z"}
+INFO:     127.0.0.1:61437 - "GET /api/runs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61436 - "GET /api/healing-events HTTP/1.1" 200 OK
+{"request_id": "8fe14e0b-9f28-4f8a-beeb-6cba995d3eef", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:46.463123Z"}
+INFO:     127.0.0.1:61437 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "1bd1b8ec-a602-44a9-8d7b-8cb0687871d8", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:47.974236Z"}
+INFO:     127.0.0.1:61436 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "8807bb6f-cdc2-4d66-a346-2f420ffe35b3", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:47.974847Z"}
+INFO:     127.0.0.1:61437 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "a05b0296-9a9f-4eb0-8ca3-4b99b7ab7468", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 25, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:50.859134Z"}
+INFO:     127.0.0.1:61436 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "465144e4-0c57-40e2-9f8b-a01b63c98034", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:51.705330Z"}
+INFO:     127.0.0.1:61437 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "7ded5417-38b3-44d3-959d-9c094b661b14", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:39:51.887889Z"}
+INFO:     127.0.0.1:61436 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "d69ff5a6-e871-4787-880f-b0b402ca6091", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:06.160715Z"}
+INFO:     127.0.0.1:61464 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "d4ac27cb-b296-4f7e-9239-8fb1c575764f", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:06.724742Z"}
+INFO:     127.0.0.1:61464 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "a6ef20a2-bdcf-4e6e-a5ba-6bb71d01097c", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:07.425167Z"}
+INFO:     127.0.0.1:61464 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "dc4565e2-c62e-4ccc-bb54-062d09eeaa19", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:07.909279Z"}
+INFO:     127.0.0.1:61464 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "7a5f9329-821f-43df-8e44-cc4ff21f6530", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:07.910302Z"}
+INFO:     127.0.0.1:61465 - "GET /api/healing-events HTTP/1.1" 200 OK
+{"request_id": "8774f453-2e10-45ea-a056-ceabdf917a96", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:09.035730Z"}
+INFO:     127.0.0.1:61464 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "e6051429-dc58-4038-bd16-482489df7c0d", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:10.374907Z"}
+{"request_id": "d71a599e-b0a8-475e-9abf-90baa752ecb6", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:10.375133Z"}
+INFO:     127.0.0.1:61465 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61464 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "5cd873d0-055f-4423-a8e7-009630e9a8e0", "method": "OPTIONS", "path": "/api/applications", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:19.035476Z"}
+INFO:     127.0.0.1:61467 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+{"request_id": "4e1cf8de-43c1-4b2e-ab22-d81f5ffe9b69", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:19.042293Z"}
+INFO:     127.0.0.1:61467 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "0136a888-c2de-4f40-8d11-4488b525b379", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:19.726370Z"}
+INFO:     127.0.0.1:61467 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "eef4ff83-863f-403d-816c-9878651b4396", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:19.867885Z"}
+INFO:     127.0.0.1:61467 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "bc402515-ca14-4c8a-884a-9167866fb517", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:20.268710Z"}
+INFO:     127.0.0.1:61467 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "a8e5ba13-b89b-477e-8ae9-f739cdd9bbaf", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:40:20.435802Z"}
+INFO:     127.0.0.1:61467 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "37821926-005d-496c-854d-4743fe3dd1bc", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:41:11.722065Z"}
+INFO:     127.0.0.1:61484 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "d7fded9d-3795-4c17-9b6e-93860300738f", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:41:11.723648Z"}
+INFO:     127.0.0.1:61486 - "POST /api/applications HTTP/1.1" 400 Bad Request
+{"request_id": "5df970d1-88b4-49a8-a141-59f60ef99b63", "method": "POST", "path": "/api/applications", "status_code": 400, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:41:19.578412Z"}
+INFO:     127.0.0.1:61490 - "POST /api/applications HTTP/1.1" 400 Bad Request
+WARNING:  WatchFiles detected changes in 'app/core/config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71643]
+INFO:     Started server process [71730]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71730]
+INFO:     Stopping reloader process [71619]
+INFO:     Will watch for changes in these directories: ['/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [71850] using WatchFiles
+INFO:     Started server process [71855]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"request_id": "6ff7465f-7285-4752-9b47-bbf170d8ee8e", "method": "POST", "path": "/api/applications", "status_code": 201, "duration_ms": 31, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:41:58.062945Z"}
+INFO:     127.0.0.1:61522 - "POST /api/applications HTTP/1.1" 201 Created
+{"request_id": "8f360729-7445-4351-85a0-de6982769e7a", "method": "POST", "path": "/api/discovery", "status_code": 200, "duration_ms": 5500, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:42:09.450154Z"}
+INFO:     127.0.0.1:61525 - "POST /api/discovery HTTP/1.1" 200 OK
+{"request_id": "1214a0dd-be78-47e3-8b7f-adf151430ba1", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 34, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:42:14.765384Z"}
+INFO:     127.0.0.1:61549 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "938aeed3-7f69-4d6a-b80f-9ce84224f60e", "method": "GET", "path": "/api/runs/ae061133-ebf4-4e19-8251-0eb7a92370c1", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:42:16.774182Z"}
+INFO:     127.0.0.1:61568 - "GET /api/runs/ae061133-ebf4-4e19-8251-0eb7a92370c1 HTTP/1.1" 200 OK
+{"request_id": "7ab4538b-d633-486b-8e1d-7411add247c1", "method": "GET", "path": "/api/runs/ae061133-ebf4-4e19-8251-0eb7a92370c1", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:42:22.242199Z"}
+INFO:     127.0.0.1:61579 - "GET /api/runs/ae061133-ebf4-4e19-8251-0eb7a92370c1 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/ai/prompts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71855]
+INFO:     Started server process [71953]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"request_id": "f09fa0ba-bd30-4eef-a176-210c112b2d1f", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 73, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:43:46.251239Z"}
+INFO:     127.0.0.1:61600 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "a060a37b-c882-4eb9-a033-14e788224c35", "method": "GET", "path": "/api/runs/8d0c09ba-0da2-4da1-ba02-c015d82156a7", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:43:48.266430Z"}
+INFO:     127.0.0.1:61618 - "GET /api/runs/8d0c09ba-0da2-4da1-ba02-c015d82156a7 HTTP/1.1" 200 OK
+{"request_id": "aab01153-3e97-4be8-b695-b9766a68a515", "method": "GET", "path": "/api/runs/8d0c09ba-0da2-4da1-ba02-c015d82156a7", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:43:50.279536Z"}
+INFO:     127.0.0.1:61629 - "GET /api/runs/8d0c09ba-0da2-4da1-ba02-c015d82156a7 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [71953]
+INFO:     Stopping reloader process [71850]
+INFO:     Will watch for changes in these directories: ['/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [72070] using WatchFiles
+INFO:     Started server process [72075]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"request_id": "f106da5d-73d0-4ba3-a84b-507ebe523479", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 102, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:03.921177Z"}
+INFO:     127.0.0.1:61654 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "0cceca94-444f-4a93-ab8c-7ab1f0e5bf2d", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:05.929893Z"}
+INFO:     127.0.0.1:61674 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "cf3b9fd2-436f-4c6a-a6a5-3821415bd819", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:07.942318Z"}
+INFO:     127.0.0.1:61685 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "0d036e6c-ecd0-43d3-a54d-392a9f0084ea", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:09.954703Z"}
+INFO:     127.0.0.1:61687 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "9e093156-9793-4b59-9466-41cb4c3fcf43", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:11.964926Z"}
+INFO:     127.0.0.1:61689 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "6f0faa1b-06e7-4b09-8958-5b77954e0bdc", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:13.975952Z"}
+INFO:     127.0.0.1:61713 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "8140319e-94d9-4c8a-a3f8-7c04410822eb", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:15.986789Z"}
+INFO:     127.0.0.1:61716 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "2532d259-a65e-4991-ace4-564f0cf88cde", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:17.995554Z"}
+INFO:     127.0.0.1:61718 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "d566ba85-5c56-436a-a1f0-74226f3a314a", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:20.008722Z"}
+INFO:     127.0.0.1:61720 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "c552ee9e-f610-4548-bf3c-280b82456647", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:22.022906Z"}
+INFO:     127.0.0.1:61722 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "30d6d6e2-33db-4beb-9a70-016b8e37c474", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:24.036422Z"}
+INFO:     127.0.0.1:61724 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "0567f8d0-3bc1-4056-a58d-20262e93ae8d", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:26.046310Z"}
+INFO:     127.0.0.1:61726 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "d2ec6719-9a27-432a-80da-9f9eab61c8df", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:28.059020Z"}
+INFO:     127.0.0.1:61728 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "3c3a49cd-d2e3-492e-a81e-dc601506a0be", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:30.066509Z"}
+INFO:     127.0.0.1:61731 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "1f34b205-d9ae-46df-b4b1-1748ac4cb425", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:32.074930Z"}
+INFO:     127.0.0.1:61733 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "7fab4a2a-49fb-4b23-b25d-2a8724c6ecb7", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:33.920609Z"}
+INFO:     127.0.0.1:61736 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "974d8cb0-9d73-4090-8d3d-48c27471cd0e", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:34.084143Z"}
+INFO:     127.0.0.1:61738 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "cd38f2a1-1929-439d-a083-2b8a80d2115e", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:36.097449Z"}
+INFO:     127.0.0.1:61740 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "af6f6963-6ca6-47ef-b454-096bb1367077", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:38.107823Z"}
+INFO:     127.0.0.1:61742 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "fe257f3f-acf9-4d1c-a34e-2c76b53b9b3d", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:40.119348Z"}
+INFO:     127.0.0.1:61744 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "b451d6e4-d886-41a3-b021-e3f46d0abdcc", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:42.129768Z"}
+INFO:     127.0.0.1:61746 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "3c3ae359-3b81-4023-94e3-c6822b71e922", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:43.413313Z"}
+INFO:     127.0.0.1:61748 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "21e37c79-484a-45fb-af4e-71b002f1971d", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:44.140649Z"}
+INFO:     127.0.0.1:61751 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "0cf5fd6a-3544-4d0b-96f4-331d5c351fcf", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:45.425844Z"}
+INFO:     127.0.0.1:61765 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "55db68e0-b3d8-43cd-96f0-a5151359de41", "method": "GET", "path": "/api/runs/bc99174a-d497-4b00-85e1-550779d129bd", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:46.153647Z"}
+INFO:     127.0.0.1:61767 - "GET /api/runs/bc99174a-d497-4b00-85e1-550779d129bd HTTP/1.1" 200 OK
+{"request_id": "3e8c0209-6cdd-47f7-9e09-78f4f4b8c1b8", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:57.758496Z"}
+INFO:     127.0.0.1:61785 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "6ad4ddbd-5ec0-4900-b0df-d11f39ab4b0b", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:58.747301Z"}
+INFO:     127.0.0.1:61785 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "f51a8728-6c5b-4fa9-bf61-41c6f104001d", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 8, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:44:58.751924Z"}
+INFO:     127.0.0.1:61792 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "eb18aee6-bf2a-425e-8827-de90f5dcd722", "method": "POST", "path": "/api/projects", "status_code": 201, "duration_ms": 10, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:03.609214Z"}
+INFO:     127.0.0.1:61785 - "POST /api/projects HTTP/1.1" 201 Created
+{"request_id": "a27c040a-6926-490a-a3c7-b70c6c2869f9", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:03.619283Z"}
+INFO:     127.0.0.1:61792 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "fb9cc912-268e-49b2-929a-b546b238eb4f", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:04.695671Z"}
+{"request_id": "31218c7a-f71d-41d2-bd84-62e910dde3e4", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:04.695867Z"}
+INFO:     127.0.0.1:61792 - "GET /api/applications?project_id=d62a226d-e367-49e0-93f6-5d4264535c60 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61785 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "07c76d8e-3ea3-44d8-8728-bcbc59ef1102", "method": "POST", "path": "/api/applications", "status_code": 201, "duration_ms": 12, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:21.811759Z"}
+INFO:     127.0.0.1:61795 - "POST /api/applications HTTP/1.1" 201 Created
+{"request_id": "4f5925dd-c14b-4131-b954-f11b3dd0af86", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:21.822003Z"}
+INFO:     127.0.0.1:61795 - "GET /api/applications?project_id=d62a226d-e367-49e0-93f6-5d4264535c60 HTTP/1.1" 200 OK
+{"request_id": "094e7ef7-c54c-4bc0-b14b-eb1e94d7adbb", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 13, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:23.099083Z"}
+INFO:     127.0.0.1:61795 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "10a8834a-4f58-435f-b984-b2cc26c8b2b1", "method": "GET", "path": "/api/tests", "status_code": 200, "duration_ms": 11, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:23.101006Z"}
+INFO:     127.0.0.1:61796 - "GET /api/tests?application_id=fb782a9d-9c49-47f0-af3d-efe4feb0c317 HTTP/1.1" 200 OK
+{"request_id": "da13bb4f-87f1-4a10-9b08-e50f2e637f67", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 10, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:23.101332Z"}
+INFO:     127.0.0.1:61797 - "GET /api/runs?application_id=fb782a9d-9c49-47f0-af3d-efe4feb0c317 HTTP/1.1" 200 OK
+{"request_id": "39dab799-21ac-41cc-92be-47df7478d066", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:27.113736Z"}
+INFO:     127.0.0.1:61795 - "GET /api/runs?application_id=fb782a9d-9c49-47f0-af3d-efe4feb0c317 HTTP/1.1" 200 OK
+{"request_id": "80248fe2-f9a1-4788-9599-98170ead4560", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:31.126760Z"}
+INFO:     127.0.0.1:61795 - "GET /api/runs?application_id=fb782a9d-9c49-47f0-af3d-efe4feb0c317 HTTP/1.1" 200 OK
+{"request_id": "cc86c6d0-71f9-454e-859c-3a3ec3ea6b12", "method": "OPTIONS", "path": "/api/runs", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:33.611393Z"}
+INFO:     127.0.0.1:61795 - "OPTIONS /api/runs HTTP/1.1" 200 OK
+{"request_id": "df6e49c0-1429-462a-8550-fd4a31e9b44e", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 25, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:33.639924Z"}
+INFO:     127.0.0.1:61795 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "45a162a7-abc6-458c-8b7d-d2d0e8ea8fa5", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:33.650243Z"}
+INFO:     127.0.0.1:61795 - "GET /api/runs?application_id=fb782a9d-9c49-47f0-af3d-efe4feb0c317 HTTP/1.1" 200 OK
+{"request_id": "7c9fd09e-c99f-4161-9c75-4059031a54a4", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8", "status_code": 200, "duration_ms": 9, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:34.894735Z"}
+INFO:     127.0.0.1:61795 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8 HTTP/1.1" 200 OK
+{"request_id": "d6bac0eb-3420-41d3-b8a9-1581b16a593d", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 11, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:34.896967Z"}
+INFO:     127.0.0.1:61807 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "cff3a666-b839-4028-ab64-f88c35ef4258", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 15, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:34.904032Z"}
+INFO:     127.0.0.1:61808 - "GET /api/healing-events?run_id=c2e0e226-1149-4239-924c-3cd1a66105b8 HTTP/1.1" 200 OK
+{"request_id": "e0c33a4d-c587-4053-8610-5e85149bf5f5", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:37.909336Z"}
+INFO:     127.0.0.1:61795 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8 HTTP/1.1" 200 OK
+{"request_id": "81f5b0eb-b315-45af-8a64-9a962c588419", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:38.912180Z"}
+INFO:     127.0.0.1:61807 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "15e5d0b2-a1ac-464e-9510-e0555f2523b6", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 9, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:42.929397Z"}
+INFO:     127.0.0.1:61807 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "8120cd4d-b40e-473a-94a9-81a4ccc9906b", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:45:46.944891Z"}
+INFO:     127.0.0.1:61807 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "8e59c5d2-42b6-4e55-891b-602256032a84", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:46:16.541183Z"}
+INFO:     127.0.0.1:61824 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "1c19a0e7-8ae6-402b-8009-ce2522619760", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:46:28.658469Z"}
+INFO:     127.0.0.1:61827 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "8958734d-a14f-4dea-9f6d-09c6ac853c09", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:46:32.673075Z"}
+INFO:     127.0.0.1:61827 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/test_run.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [72075]
+INFO:     Started server process [72173]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [72173]
+INFO:     Stopping reloader process [72070]
+INFO:     Will watch for changes in these directories: ['/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [72280] using WatchFiles
+INFO:     Started server process [72285]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+{"request_id": "d2008d2c-7515-46b6-bf78-760f0646c91f", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 72, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:01.782469Z"}
+INFO:     127.0.0.1:61878 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "0db311bb-9c74-4fb5-bd9e-611332a801bc", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 12, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:03.799782Z"}
+INFO:     127.0.0.1:61898 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "edcf3af4-1905-45d2-baf6-e892d836cf50", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:05.808905Z"}
+INFO:     127.0.0.1:61924 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "fdfb76ee-846d-4135-a362-1a369ff1ae36", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:06.310418Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8 HTTP/1.1" 200 OK
+{"request_id": "a75f73ac-09a1-4479-9cf0-bb37d6b196aa", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 8, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:06.317392Z"}
+INFO:     127.0.0.1:61941 - "GET /api/healing-events?run_id=c2e0e226-1149-4239-924c-3cd1a66105b8 HTTP/1.1" 200 OK
+{"request_id": "be9738a2-4eb4-4f8e-bad4-b0fcda65451a", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 10, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:06.318646Z"}
+INFO:     127.0.0.1:61940 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "c0221d72-7b18-4278-a744-a738ae21c358", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:07.820015Z"}
+INFO:     127.0.0.1:61945 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "494840dd-0908-49e3-94ed-83de04ef444a", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:09.833787Z"}
+INFO:     127.0.0.1:61947 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "57cf3a41-46f5-4143-a5af-66c878a431f7", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:10.331056Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "69ea923e-9694-4473-a8ef-66cebe0cd0df", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:11.843826Z"}
+INFO:     127.0.0.1:61949 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "6ca2b684-fcf7-41d0-9cc2-eb57bafe6213", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:13.855697Z"}
+INFO:     127.0.0.1:61952 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "86ca697c-29f4-4bd2-be88-7c97ea101cad", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:14.345210Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "65d6c269-f099-4c9d-823c-c618a6bdd0a2", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:15.868886Z"}
+INFO:     127.0.0.1:61954 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "10f15415-ad26-46e1-915a-a91efc157739", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:17.880123Z"}
+INFO:     127.0.0.1:61956 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "1f207f89-1e06-49ee-b6e5-8fb62f66b3d9", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:18.360712Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "de5adff6-98d4-4e6d-a4a7-7ca0ad93399f", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:19.893042Z"}
+INFO:     127.0.0.1:61958 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "60e52e06-3acf-4b67-bab3-6e26fa19f16d", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:21.903742Z"}
+INFO:     127.0.0.1:61960 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "afd0e0e0-fa14-40ff-a17f-266be5f2465b", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:22.370009Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "2068e3a6-43b9-422b-8378-d06fbc866be4", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:23.914988Z"}
+INFO:     127.0.0.1:61963 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "a43ea494-d847-450a-8ae4-81b6349353dd", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:25.920107Z"}
+INFO:     127.0.0.1:61965 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "7768badb-2116-4f36-880c-521cbe4b2604", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:26.377896Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "3249b866-db91-49af-9d6d-3f49f48a2afc", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:26.421541Z"}
+INFO:     127.0.0.1:61967 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "273afd62-ce2d-4015-ab8f-983458cafc15", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:27.931774Z"}
+INFO:     127.0.0.1:61969 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "9eb5e236-fd64-41b5-b0ab-2af8f255855f", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:29.938176Z"}
+INFO:     127.0.0.1:61971 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "e90d84bf-f9e6-4ef3-9e9b-57e63be30933", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:30.393185Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "8d007573-35ea-40ea-8c90-0383e90e5eb1", "method": "GET", "path": "/api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:31.950404Z"}
+INFO:     127.0.0.1:61973 - "GET /api/runs/3a80cfc7-84c4-42e3-a861-b25d0291afa9 HTTP/1.1" 200 OK
+{"request_id": "d5f56c42-9493-44e8-9e33-dad94ab9fa2c", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:34.406640Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "b3127022-b4d2-4519-a80b-511a6a7125c0", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:34.725867Z"}
+INFO:     127.0.0.1:61975 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "ce26579d-12e2-4036-9aca-bf7bcb809361", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:36.738196Z"}
+INFO:     127.0.0.1:61978 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "790c8d48-1122-4b44-813d-0193fd5e7573", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:38.419333Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "249435af-9d68-4d1c-9607-7013e0310f04", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:38.746781Z"}
+INFO:     127.0.0.1:61992 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "8f9e5b8f-a5da-4424-8991-d4f6f682acc0", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:42.429459Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "d54e46c5-b79c-4c73-a1f5-7610a3e265a7", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:46.443104Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "cba6c03c-e90f-493d-b1f7-175a8d10e280", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:50.457441Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "7efd9de9-b940-40e7-928f-88a01fba60ce", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:54.471252Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "6fbb0c25-25a7-40eb-8f2b-399a6c830b7e", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:48:58.487063Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "1c8b9086-788b-4bb2-8d2f-229fb7a77707", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:02.502108Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "832d7f4d-1e53-4acd-8d7a-75cdb74f44ed", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:06.516830Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "b70b8a4b-7b18-424f-8128-45341ee39866", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:10.531715Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "f527ca71-67fe-453e-a970-551e2c876279", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:14.547129Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "806cb375-d293-4026-be32-96efcadefce0", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:18.561307Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "7bdd6b01-fd78-493d-a465-4907a4be64b0", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:22.575142Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "4556b7b4-b609-432f-b336-8f432d8f858f", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:26.589213Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "fcc79484-2833-4721-b90a-c5e3c439c6ea", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:30.602012Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "988f3865-f238-4b8c-8bbd-9b3802460514", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:34.617756Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "82159963-ff71-4948-904a-7aa0a2004ef4", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:38.633167Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "c95102ad-2ac7-42d9-8204-80604bd4a57d", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:42.648093Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "3a559f2d-8dc8-45ed-8d2f-7d289236c5a1", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:46.662362Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "37f366db-efa4-404f-a042-84aa39197e8d", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:50.676067Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "d83f22bb-a96a-4a46-9752-fffdfe6d6f6e", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:54.691887Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "1a55f30d-e2aa-4bd0-a93f-9ee23e721025", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:49:58.701595Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "3456ecf8-1364-4ced-aa0c-a4ecc9274b6a", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:02.716140Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "3949cadd-a522-4f9f-b4fb-f97ca27c8b97", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:06.729024Z"}
+INFO:     127.0.0.1:61939 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "57d4e9db-8f80-4948-839c-0944ed3cb04a", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:14.746401Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "d4451d9c-a445-4435-9cc7-b22e00af65eb", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:18.755398Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "62d7a9a9-efc9-468a-bd8a-0ef98931c719", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:21.121514Z"}
+INFO:     127.0.0.1:62010 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "72056dc5-8761-4262-801a-a90b18223674", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 9, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:21.131479Z"}
+INFO:     127.0.0.1:62012 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "aa22b3ff-c142-4b5f-ad8e-069d342fc25e", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:22.765255Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "a83742e2-6001-430f-a7c2-44947530e73a", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:23.138185Z"}
+INFO:     127.0.0.1:62027 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "e5145b3c-edfa-4bbb-9b29-ba2899e8ea8d", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:25.144708Z"}
+INFO:     127.0.0.1:62038 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "5aca8e3c-2a93-4f32-99dd-0cf923577016", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:26.779790Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "34a3ddd6-12a5-4a65-a507-16cf46f7f568", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:27.156715Z"}
+INFO:     127.0.0.1:62040 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "278da460-11d5-4c23-9c9c-1f3fcdafd577", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:29.169145Z"}
+INFO:     127.0.0.1:62042 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "ed798f3c-933a-4a28-aaf4-3bd79f41f5c8", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:30.787080Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "efd4ee06-e82c-4f0a-8b30-8f558a72ad63", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:31.177965Z"}
+INFO:     127.0.0.1:62068 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "dcd6121b-8bfa-4fa9-a7a7-0bbb766f0487", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:33.190081Z"}
+INFO:     127.0.0.1:62093 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "df5b3abe-7791-4a59-b7f2-22f80a4e9a92", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:34.795376Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "fcee5f39-15d6-460d-a0fa-181d12293049", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:35.203074Z"}
+INFO:     127.0.0.1:62095 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "f8feabf1-a395-4d87-94c9-7a43156bd02a", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:37.212899Z"}
+INFO:     127.0.0.1:62097 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "9a559dcf-60f0-405b-b793-3169e411e8e6", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:38.808965Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "25970457-fd3c-4a00-bb0e-3a4a08b8ee99", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:39.225816Z"}
+INFO:     127.0.0.1:62100 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "b5ea2395-67f0-480e-8583-f6b8af0b607a", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:40.769373Z"}
+INFO:     127.0.0.1:62102 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "46be1594-e663-4b0a-8f64-c0166682dcc9", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:41.238362Z"}
+INFO:     127.0.0.1:62104 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "a51a0c3c-6c40-4493-bef3-d15036e65169", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:42.822070Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "f49f6d1e-543d-4f1a-b7d3-6b7a41abf621", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:43.250785Z"}
+INFO:     127.0.0.1:62106 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "f5c9dde8-73bb-435b-b0d3-51f70e827451", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:45.263040Z"}
+INFO:     127.0.0.1:62108 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "9c52e097-8e7a-45cb-8a59-5e07008dda34", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:46.835701Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "eaabd2a0-58b7-4bef-9579-3c1c6f79bacf", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:47.275065Z"}
+INFO:     127.0.0.1:62110 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "cc345991-bba2-4652-933b-a284e53bb2d5", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:49.287453Z"}
+INFO:     127.0.0.1:62113 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "97ad54d8-96c9-4ead-b87b-db63244d0da9", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:50.788336Z"}
+INFO:     127.0.0.1:62115 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "fca874c2-d568-4914-a3c8-07f74da94c70", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:50.846965Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "1fedd710-2264-4497-bd53-ceb3b5b00359", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:51.297884Z"}
+INFO:     127.0.0.1:62117 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "dcf8e0b3-c04c-492c-b83f-8f12aee9b205", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:52.800984Z"}
+INFO:     127.0.0.1:62119 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "46cf5b06-8593-4d72-8c4c-e37c7c0f791a", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:53.306153Z"}
+INFO:     127.0.0.1:62121 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "1a1a84b7-8563-4a47-b009-10bf16699435", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:54.811992Z"}
+INFO:     127.0.0.1:62123 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "cfd3d469-9e0d-4129-bbe1-fa599f7f42a1", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:54.861204Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "f12bd40f-4f6d-494a-be22-15bfcf87ce16", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:55.318629Z"}
+INFO:     127.0.0.1:62125 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "7e15db15-c4c5-4aa7-aebc-2172eaf35ade", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:56.821939Z"}
+INFO:     127.0.0.1:62127 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "c547ab23-0e16-4570-88cb-0acc6f065180", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:57.328470Z"}
+INFO:     127.0.0.1:62129 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "d716cec1-2165-47c4-8630-35fae04b398b", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:58.831634Z"}
+INFO:     127.0.0.1:62131 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "6c1982b4-82c5-48f5-b034-b127ee664b79", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:58.872418Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "b70876d5-a201-4eef-ad3c-08f45bdd13da", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:50:59.340891Z"}
+INFO:     127.0.0.1:62133 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "abfe24f5-feea-4dd5-87b9-6021cc6f6d6d", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:00.843848Z"}
+INFO:     127.0.0.1:62136 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "f2a2d369-95c9-4f3e-8a15-1f0d2e8cbf7d", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:01.352801Z"}
+INFO:     127.0.0.1:62138 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "e4aa94fe-ae66-45ad-9f53-5c71dc145656", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:02.855936Z"}
+INFO:     127.0.0.1:62141 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "83ab5483-a01f-4367-b532-ab6bbf7fe06e", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:02.883019Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "21d92193-60ed-4aaf-8be5-6be38198a12d", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:03.362758Z"}
+INFO:     127.0.0.1:62143 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "75e133ad-3195-46bc-93c5-6b2c01139159", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:04.868898Z"}
+INFO:     127.0.0.1:62145 - "GET /api/runs HTTP/1.1" 200 OK
+{"request_id": "9b9abe37-c9f6-4b14-9928-352cd94f7751", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:06.897353Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "76d6a4a6-73d6-43d9-a60c-08b97fc3f714", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:10.909560Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "32f628a1-d03b-4ccf-8fce-ada12c4935b5", "method": "GET", "path": "/api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:14.924494Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/c2e0e226-1149-4239-924c-3cd1a66105b8/results HTTP/1.1" 200 OK
+{"request_id": "e53ed0fe-09e6-4bbf-bc41-ca92772d7979", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:16.707758Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "8a13927c-e72b-4753-92f1-3499e7d88e68", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 2, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:16.708863Z"}
+INFO:     127.0.0.1:62154 - "GET /api/healing-events?run_id=bacac3e0-710a-455a-bab5-cf89d0772ed5 HTTP/1.1" 200 OK
+{"request_id": "b07bbf91-7ad6-4a2a-8f9e-37bae13d566c", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:16.709017Z"}
+INFO:     127.0.0.1:62153 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results HTTP/1.1" 200 OK
+{"request_id": "d1aeaefd-c00e-4a9c-85d3-7ebc7eb4921a", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results", "status_code": 200, "duration_ms": 9, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:20.726506Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results HTTP/1.1" 200 OK
+{"request_id": "05a4b285-05b0-407e-b142-881e803ae2ec", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results", "status_code": 200, "duration_ms": 8, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:24.744484Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results HTTP/1.1" 200 OK
+{"request_id": "4b588eb3-7e58-4dea-8860-05876f74aa7a", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:28.752910Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results HTTP/1.1" 200 OK
+{"request_id": "ea11025b-ce87-4e99-87e7-0dead3ea84ad", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:32.764993Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results HTTP/1.1" 200 OK
+{"request_id": "90f9066d-9199-4102-a3d0-52d8fb597557", "method": "GET", "path": "/api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:36.779453Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs/bacac3e0-710a-455a-bab5-cf89d0772ed5/results HTTP/1.1" 200 OK
+{"request_id": "0fd5dfc5-ddd6-4fd9-aefc-384b50675143", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:40.593801Z"}
+INFO:     127.0.0.1:62007 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "e596ebbd-750e-4e20-a685-f437bd3cc1b2", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:42.020325Z"}
+INFO:     127.0.0.1:62007 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "7006bf1b-e318-4310-aa51-88384132d78d", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:42.021746Z"}
+INFO:     127.0.0.1:62155 - "GET /api/applications?project_id=9af07b3f-d1f5-4779-8610-5b0df3ceecf9 HTTP/1.1" 200 OK
+{"request_id": "28be16ce-3a4e-4400-92f8-1cdeb22a7e40", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 11, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:44.906599Z"}
+INFO:     127.0.0.1:62007 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "510fe973-0bc4-4b58-af7b-68abe545562a", "method": "GET", "path": "/api/tests", "status_code": 200, "duration_ms": 11, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:44.907862Z"}
+INFO:     127.0.0.1:62155 - "GET /api/tests?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "60452147-d6b1-43f0-b19e-e6ed8cf68e90", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 9, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:44.908127Z"}
+INFO:     127.0.0.1:62156 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "91ef53c8-e610-4ec9-83e4-640f0f382d02", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:48.921066Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "2e5d007c-f3b7-4796-936c-5f7c9764729a", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:52.935505Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "10329c60-4c14-4cf0-a632-1dc900b242fe", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:51:56.951429Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "cf444177-5424-453b-92c1-c9a8a210aa5b", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:00.967335Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "7330693b-ffca-4296-a5fd-bcb3d2a9ec75", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:04.980851Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "126d0193-7fc2-485d-b363-c22ba7927ef0", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:08.994373Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "002d5cfd-d70e-4738-87af-e83a1ab72142", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:13.006873Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "d8cf9af9-87ac-4d51-b87f-616fd8629303", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 22, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:14.015452Z"}
+INFO:     127.0.0.1:62007 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "51187365-2073-4e75-a406-7de24f211e6f", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:14.026414Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "4a92ecdc-5b64-4ee1-9c1e-1ddc22dd299b", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:16.095825Z"}
+INFO:     127.0.0.1:62007 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "66daadc8-cd38-49a8-8a93-67b938f86e2d", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 1, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:16.100886Z"}
+INFO:     127.0.0.1:62007 - "GET /api/runs?application_id=4651fcde-da82-4a72-af44-7118bcec1b01 HTTP/1.1" 200 OK
+{"request_id": "3f8b446c-d85c-48b1-978d-e3c07dcda883", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:52:18.253081Z"}
+INFO:     127.0.0.1:62007 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "684f897a-1994-41b2-9b7d-07f0501421e2", "method": "OPTIONS", "path": "/api/projects", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:53:33.048844Z"}
+INFO:     127.0.0.1:62274 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+{"request_id": "31b3e862-deb2-494a-8932-222f7b531822", "method": "POST", "path": "/api/projects", "status_code": 201, "duration_ms": 10, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:53:33.062491Z"}
+INFO:     127.0.0.1:62274 - "POST /api/projects HTTP/1.1" 201 Created
+{"request_id": "ab296326-d4f8-4cb7-8e75-546609a4183b", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:53:33.071618Z"}
+INFO:     127.0.0.1:62274 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "6381a445-bbf3-4f29-971d-360831b72c75", "method": "GET", "path": "/api/projects", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:53:36.454759Z"}
+INFO:     127.0.0.1:62274 - "GET /api/projects HTTP/1.1" 200 OK
+{"request_id": "9315c825-6686-49a6-8459-e4a3522ab182", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:53:36.455869Z"}
+INFO:     127.0.0.1:62275 - "GET /api/applications?project_id=3e41a539-e98f-49fa-965c-379850686183 HTTP/1.1" 200 OK
+{"request_id": "1ce4366d-5013-48a2-89d0-30cdd85e3229", "method": "OPTIONS", "path": "/api/applications", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:20.468957Z"}
+INFO:     127.0.0.1:62293 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+{"request_id": "c3e43ebb-2178-4738-8c81-1986853207b3", "method": "POST", "path": "/api/applications", "status_code": 201, "duration_ms": 90, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:20.563443Z"}
+INFO:     127.0.0.1:62293 - "POST /api/applications HTTP/1.1" 201 Created
+{"request_id": "0487d9a3-f645-49f5-9e25-b69850ebc6cd", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:20.575640Z"}
+INFO:     127.0.0.1:62293 - "GET /api/applications?project_id=3e41a539-e98f-49fa-965c-379850686183 HTTP/1.1" 200 OK
+{"request_id": "e3f7dafb-7da2-4467-b9a9-d0d75f07015a", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:23.050533Z"}
+INFO:     127.0.0.1:62293 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "0232b293-d451-43b1-b565-3855d119c6e3", "method": "GET", "path": "/api/tests", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:23.052638Z"}
+{"request_id": "fe7c5e80-607f-40df-bb75-e65b511164ab", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:23.052787Z"}
+INFO:     127.0.0.1:62294 - "GET /api/tests?application_id=71e01c0c-ff1f-4ff9-a04d-307f124ad770 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62295 - "GET /api/runs?application_id=71e01c0c-ff1f-4ff9-a04d-307f124ad770 HTTP/1.1" 200 OK
+{"request_id": "a6b9c252-3654-4386-af7c-4f157c66beb7", "method": "POST", "path": "/api/runs", "status_code": 202, "duration_ms": 14, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:24.470461Z"}
+INFO:     127.0.0.1:62293 - "POST /api/runs HTTP/1.1" 202 Accepted
+{"request_id": "eb0dae9b-7b29-4cdb-bbd8-998524bad8e8", "method": "GET", "path": "/api/runs", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:24.482013Z"}
+INFO:     127.0.0.1:62294 - "GET /api/runs?application_id=71e01c0c-ff1f-4ff9-a04d-307f124ad770 HTTP/1.1" 200 OK
+{"request_id": "ee9dcc6d-077e-427d-adc2-d0c6bca15919", "method": "GET", "path": "/api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:26.069504Z"}
+INFO:     127.0.0.1:62295 - "GET /api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03 HTTP/1.1" 200 OK
+{"request_id": "0a76caa7-92ea-4cc1-8c44-4bbb4327c4b5", "method": "GET", "path": "/api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:26.070246Z"}
+INFO:     127.0.0.1:62293 - "GET /api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03/results HTTP/1.1" 200 OK
+{"request_id": "aee95706-b966-43c9-aef8-b5e2b2ac0ce9", "method": "GET", "path": "/api/healing-events", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:26.071169Z"}
+INFO:     127.0.0.1:62294 - "GET /api/healing-events?run_id=8c1bb43a-f1c9-4ada-8f02-675701e1ae03 HTTP/1.1" 200 OK
+{"request_id": "7336bbc8-aeb9-409a-af2f-60d18a272029", "method": "GET", "path": "/api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03/results", "status_code": 200, "duration_ms": 7, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:30.085655Z"}
+INFO:     127.0.0.1:62295 - "GET /api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03/results HTTP/1.1" 200 OK
+{"request_id": "2c7f5253-1a62-46d4-9b1e-0bd5320b9ee4", "method": "GET", "path": "/api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03/results", "status_code": 200, "duration_ms": 6, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:34.100640Z"}
+INFO:     127.0.0.1:62295 - "GET /api/runs/8c1bb43a-f1c9-4ada-8f02-675701e1ae03/results HTTP/1.1" 200 OK
+{"request_id": "fbc3616c-1c5b-46f3-b1a9-78fedcecade2", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:35.333133Z"}
+INFO:     127.0.0.1:62295 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "1497c5a5-8ede-4dfa-9f16-2ab2247b7aa2", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 3, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:36.748607Z"}
+INFO:     127.0.0.1:62295 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "36d881ea-1da6-4020-8426-5b6b0ac35378", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:37.530316Z"}
+INFO:     127.0.0.1:62295 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "ae4489aa-f8f7-4de5-a349-3811c57c2830", "method": "GET", "path": "/api/tests", "status_code": 200, "duration_ms": 5, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:39.408549Z"}
+INFO:     127.0.0.1:62295 - "GET /api/tests?application_id=71e01c0c-ff1f-4ff9-a04d-307f124ad770 HTTP/1.1" 200 OK
+{"request_id": "b0c75c92-b98c-47f8-9d4a-041e17bfc502", "method": "GET", "path": "/api/applications", "status_code": 200, "duration_ms": 4, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:41.381930Z"}
+INFO:     127.0.0.1:62295 - "GET /api/applications HTTP/1.1" 200 OK
+{"request_id": "3af6b95e-ad3a-4ff2-9cea-132e22cb9a2f", "method": "OPTIONS", "path": "/api/discovery", "status_code": 200, "duration_ms": 0, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:48.060630Z"}
+INFO:     127.0.0.1:62300 - "OPTIONS /api/discovery HTTP/1.1" 200 OK
+{"url": "https://result.vtudeveloper.in/", "error": "Page.goto: net::ERR_CONNECTION_RESET at https://result.vtudeveloper.in/\nCall log:\nnavigating to \"https://result.vtudeveloper.in/\", waiting until \"domcontentloaded\"\n", "event": "discovery.page_error", "level": "error", "timestamp": "2026-09-05T11:55:48.533469Z"}
+{"request_id": "8ed52acd-cb82-474d-afb8-f4adcb7e6cf1", "method": "POST", "path": "/api/discovery", "status_code": 422, "duration_ms": 496, "event": "http.request", "level": "info", "timestamp": "2026-09-05T11:55:48.560049Z"}
+INFO:     127.0.0.1:62300 - "POST /api/discovery HTTP/1.1" 422 Unprocessable Entity
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.

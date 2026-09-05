@@ -28,15 +28,14 @@ class RunStatus(str, enum.Enum):
     CANCELLED = "CANCELLED"
 
 
-# Allowed forward transitions for the run state machine.
 ALLOWED_TRANSITIONS: dict[RunStatus, set[RunStatus]] = {
     RunStatus.CREATED: {RunStatus.QUEUED, RunStatus.CANCELLED},
     RunStatus.QUEUED: {RunStatus.DISCOVERING, RunStatus.PLANNING, RunStatus.EXECUTING, RunStatus.CANCELLED, RunStatus.FAILED},
-    RunStatus.DISCOVERING: {RunStatus.PLANNING, RunStatus.FAILED, RunStatus.CANCELLED},
-    RunStatus.PLANNING: {RunStatus.GENERATING, RunStatus.FAILED, RunStatus.CANCELLED},
-    RunStatus.GENERATING: {RunStatus.VALIDATING, RunStatus.FAILED, RunStatus.CANCELLED},
-    RunStatus.VALIDATING: {RunStatus.EXECUTING, RunStatus.FAILED, RunStatus.CANCELLED},
-    RunStatus.EXECUTING: {RunStatus.ANALYZING, RunStatus.FAILED, RunStatus.CANCELLED},
+    RunStatus.DISCOVERING: {RunStatus.PLANNING, RunStatus.EXECUTING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
+    RunStatus.PLANNING: {RunStatus.GENERATING, RunStatus.EXECUTING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
+    RunStatus.GENERATING: {RunStatus.VALIDATING, RunStatus.EXECUTING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
+    RunStatus.VALIDATING: {RunStatus.EXECUTING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
+    RunStatus.EXECUTING: {RunStatus.ANALYZING, RunStatus.HEALING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
     RunStatus.ANALYZING: {RunStatus.HEALING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
     RunStatus.HEALING: {RunStatus.RETESTING, RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},
     RunStatus.RETESTING: {RunStatus.COMPLETED, RunStatus.FAILED, RunStatus.CANCELLED},

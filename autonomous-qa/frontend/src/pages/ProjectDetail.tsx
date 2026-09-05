@@ -12,7 +12,7 @@ export default function ProjectDetail() {
   const project = projects.find((p) => p.id === projectId);
 
   const [name, setName] = useState("");
-  const [baseUrl, setBaseUrl] = useState("http://demo-app:5050");
+  const [baseUrl, setBaseUrl] = useState("http://localhost:5050");
   const [engine, setEngine] = useState("playwright");
 
   function handleSubmit(e: React.FormEvent) {
@@ -23,6 +23,10 @@ export default function ProjectDetail() {
       { onSuccess: () => setName("") }
     );
   }
+
+  const errorMessage = createApp.error
+    ? ((createApp.error as any).response?.data?.detail ?? createApp.error.message)
+    : null;
 
   return (
     <div className="space-y-6">
@@ -69,6 +73,11 @@ export default function ProjectDetail() {
             Add Application
           </button>
         </form>
+        {errorMessage && (
+          <p className="mt-3 text-sm text-rose-600 font-medium">
+            {errorMessage}
+          </p>
+        )}
       </Card>
 
       <Card title="Applications">

@@ -33,3 +33,249 @@ you should set broker_connection_retry_on_startup to True.
 [2026-09-05 16:18:59,266: INFO/MainProcess] mingle: searching for neighbors
 [2026-09-05 16:19:00,271: INFO/MainProcess] mingle: all alone
 [2026-09-05 16:19:00,282: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Vineeths-MacBook-Air.local v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-05 17:05:34
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autonomous_qa:0x109f24fe0
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.workers.tasks.execute_test_run
+
+[2026-09-05 17:05:34,197: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:05:34,202: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2026-09-05 17:05:34,203: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:05:34,204: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-05 17:05:35,210: INFO/MainProcess] mingle: all alone
+[2026-09-05 17:05:35,222: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Vineeths-MacBook-Air.local v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-05 17:06:29
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autonomous_qa:0x109923aa0
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.workers.tasks.execute_test_run
+
+[2026-09-05 17:06:29,465: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:06:29,471: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2026-09-05 17:06:29,471: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:06:29,473: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-05 17:06:30,479: INFO/MainProcess] mingle: all alone
+[2026-09-05 17:06:30,492: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Vineeths-MacBook-Air.local v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-05 17:11:53
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autonomous_qa:0x10b7b4d10
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.workers.tasks.execute_test_run
+
+[2026-09-05 17:11:53,619: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:11:53,623: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2026-09-05 17:11:53,623: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:11:53,624: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-05 17:11:54,630: INFO/MainProcess] mingle: all alone
+[2026-09-05 17:11:54,642: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.
+[2026-09-05 17:12:14,765: INFO/MainProcess] Task app.workers.tasks.execute_test_run[2733a640-3a47-49cb-b713-79f0b3ad2162] received
+[2026-09-05 17:12:18,074: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+[2026-09-05 17:12:18,076: WARNING/ForkPoolWorker-2] {"error": "Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-120b` in organization `org_01m1rfttm4efw8dnhpy98ed33d` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9696, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "event": "groq.call_failed", "level": "error", "timestamp": "2026-09-05T11:42:18.076442Z"}
+[2026-09-05 17:12:18,081: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[2733a640-3a47-49cb-b713-79f0b3ad2162] succeeded in 3.315967417031061s: None
+[2026-09-05 17:13:46,250: INFO/MainProcess] Task app.workers.tasks.execute_test_run[8c92d2db-e6c4-4ae4-a1e9-649bb0e30ecc] received
+[2026-09-05 17:13:49,570: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+[2026-09-05 17:13:49,571: WARNING/ForkPoolWorker-2] {"error": "Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-120b` in organization `org_01m1rfttm4efw8dnhpy98ed33d` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 9734, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "event": "groq.call_failed", "level": "error", "timestamp": "2026-09-05T11:43:49.571725Z"}
+[2026-09-05 17:13:49,578: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[8c92d2db-e6c4-4ae4-a1e9-649bb0e30ecc] succeeded in 3.327263791987207s: None
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Vineeths-MacBook-Air.local v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-05 17:13:57
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autonomous_qa:0x10b273c50
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.workers.tasks.execute_test_run
+
+[2026-09-05 17:13:57,952: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:13:57,956: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2026-09-05 17:13:57,957: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:13:57,959: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-05 17:13:58,965: INFO/MainProcess] mingle: all alone
+[2026-09-05 17:13:58,975: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.
+[2026-09-05 17:14:03,920: INFO/MainProcess] Task app.workers.tasks.execute_test_run[d5901c53-0f80-4bd0-8a42-81a81a396361] received
+[2026-09-05 17:14:12,543: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:14:44,595: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:14:45,093: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[d5901c53-0f80-4bd0-8a42-81a81a396361] succeeded in 41.171673667035066s: None
+[2026-09-05 17:15:33,639: INFO/MainProcess] Task app.workers.tasks.execute_test_run[8d25ec1c-7745-45f6-840d-1a6331020a47] received
+[2026-09-05 17:15:36,865: WARNING/ForkPoolWorker-2] {"run_id": "c2e0e226-1149-4239-924c-3cd1a66105b8", "error": "Cannot transition run from RunStatus.DISCOVERING to RunStatus.EXECUTING.", "event": "tasks.run_failed", "level": "error", "timestamp": "2026-09-05T11:45:36.865699Z"}
+[2026-09-05 17:15:36,868: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[8d25ec1c-7745-45f6-840d-1a6331020a47] succeeded in 3.227890792011749s: None
+
+worker: Warm shutdown (MainProcess)
+ 
+ -------------- celery@Vineeths-MacBook-Air.local v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-05 17:17:54
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autonomous_qa:0x108e47020
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.workers.tasks.execute_test_run
+
+[2026-09-05 17:17:54,483: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:17:54,487: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2026-09-05 17:17:54,488: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 17:17:54,489: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-05 17:17:55,495: INFO/MainProcess] mingle: all alone
+[2026-09-05 17:17:55,507: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.
+[2026-09-05 17:18:01,782: INFO/MainProcess] Task app.workers.tasks.execute_test_run[d2bfcd6d-86b8-4e94-bba9-64c94dda1b43] received
+[2026-09-05 17:18:37,180: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:18:37,662: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[d2bfcd6d-86b8-4e94-bba9-64c94dda1b43] succeeded in 35.879898000042886s: None
+[2026-09-05 17:20:21,131: INFO/MainProcess] Task app.workers.tasks.execute_test_run[7c97e668-4b2f-48dd-b1ac-3e051d7845d1] received
+[2026-09-05 17:20:29,982: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:20:30,566: ERROR/ForkPoolWorker-2] Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<AsyncClient.aclose() done, defined at /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpx/_client.py:2024> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpx/_client.py", line 2031, in aclose
+    await self._transport.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 389, in aclose
+    await self._pool.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpcore/_async/http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/anyio/streams/tls.py", line 248, in aclose
+    await self.transport_stream.aclose()
+  File "/Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1467, in aclose
+    self._transport.close()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.14/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/selector_events.py", line 1213, in close
+    super().close()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.14/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/selector_events.py", line 875, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "/opt/homebrew/Cellar/python@3.12/3.12.14/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py", line 799, in call_soon
+    self._check_closed()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.14/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py", line 545, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[2026-09-05 17:21:02,992: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:21:03,010: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[7c97e668-4b2f-48dd-b1ac-3e051d7845d1] succeeded in 41.878295583999716s: None
+[2026-09-05 17:22:14,015: INFO/MainProcess] Task app.workers.tasks.execute_test_run[d74125a3-4f99-4c10-888d-248157cc0f6e] received
+[2026-09-05 17:22:16,095: INFO/MainProcess] Task app.workers.tasks.execute_test_run[b930e08d-0ddb-467d-b8c9-933dcdc67f23] received
+[2026-09-05 17:22:48,023: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:22:48,506: INFO/ForkPoolWorker-1] Task app.workers.tasks.execute_test_run[b930e08d-0ddb-467d-b8c9-933dcdc67f23] succeeded in 32.40998120902805s: None
+[2026-09-05 17:22:49,216: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-09-05 17:22:49,670: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[d74125a3-4f99-4c10-888d-248157cc0f6e] succeeded in 35.65448700002162s: None
+[2026-09-05 17:25:24,470: INFO/MainProcess] Task app.workers.tasks.execute_test_run[818c6019-7473-4254-a24b-436d5a9e4ce3] received
+[2026-09-05 17:25:25,324: WARNING/ForkPoolWorker-2] {"url": "https://result.vtudeveloper.in/", "error": "Page.goto: net::ERR_CONNECTION_RESET at https://result.vtudeveloper.in/\nCall log:\nnavigating to \"https://result.vtudeveloper.in/\", waiting until \"domcontentloaded\"\n", "event": "discovery.page_error", "level": "error", "timestamp": "2026-09-05T11:55:25.324537Z"}
+[2026-09-05 17:25:25,376: INFO/ForkPoolWorker-2] Task app.workers.tasks.execute_test_run[818c6019-7473-4254-a24b-436d5a9e4ce3] succeeded in 0.9052400840446353s: None

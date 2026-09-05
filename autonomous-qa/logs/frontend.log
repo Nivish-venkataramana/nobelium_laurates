@@ -7,3 +7,49 @@
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
+
+> autonomous-qa-frontend@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 156 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> autonomous-qa-frontend@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 83 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+5:11:00 PM [vite] hmr update /src/pages/ProjectDetail.tsx, /src/index.css
+
+> autonomous-qa-frontend@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 90 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> autonomous-qa-frontend@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 88 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> autonomous-qa-frontend@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 88 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose

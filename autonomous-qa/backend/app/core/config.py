@@ -12,7 +12,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+    model_config = SettingsConfigDict(env_file=(".env", "../.env"), extra="ignore")
 
     # --- App ---
     APP_NAME: str = "Autonomous Quality Engineering Platform"
@@ -34,7 +34,7 @@ class Settings(BaseSettings):
     # --- AI ---
     AI_PROVIDER: str = "groq"
     GROQ_API_KEY: str = ""
-    GROQ_MODEL: str = "llama-3.3-70b-versatile"
+    GROQ_MODEL: str = "openai/gpt-oss-120b"
     AI_MAX_RETRIES: int = 2
     AI_TIMEOUT_SECONDS: int = 60
 
