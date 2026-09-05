@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+storage/test_runs.db
+storage/app.log
+node_modules/
+.streamlit/
+*.egg-info/
+.DS_Store

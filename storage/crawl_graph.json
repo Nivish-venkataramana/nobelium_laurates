@@ -1,0 +1,347 @@
+{
+  "base_url": "http://localhost:5000",
+  "pages": [
+    {
+      "url": "/",
+      "title": "Sign In \u2014 AegisShop",
+      "a11y_snapshot": "- text: APP_VERSION=v1\n- navigation:\n  - link \"Home\":\n    - /url: /\n  - link \"Cart\":\n    - /url: /cart\n  - link \"Checkout\":\n    - /url: /checkout\n- separator\n- heading \"Sign In\" [level=1]\n- text: Username\n- textbox \"Username\"\n- text: Password\n- textbox \"Password\"\n- button \"Sign In\"",
+      "interactive_elements": [
+        {
+          "role": "button",
+          "accessible_name": "Sign In",
+          "selector_hint": "role=button[name=\"Sign In\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 253.8125,
+            "width": 79.875,
+            "height": 31
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Home",
+          "selector_hint": "role=link[name=\"Home\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 32,
+            "width": 42.6875,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Cart",
+          "selector_hint": "role=link[name=\"Cart\"]",
+          "bounding_box": {
+            "x": 398.6875,
+            "y": 32,
+            "width": 30.234375,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Checkout",
+          "selector_hint": "role=link[name=\"Checkout\"]",
+          "bounding_box": {
+            "x": 444.921875,
+            "y": 32,
+            "width": 67.59375,
+            "height": 17
+          }
+        },
+        {
+          "role": "textbox",
+          "accessible_name": "Username",
+          "selector_hint": "role=textbox[name=\"Username\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 161.0625,
+            "width": 600,
+            "height": 31.78125
+          }
+        },
+        {
+          "role": "textbox",
+          "accessible_name": "Password",
+          "selector_hint": "role=textbox[name=\"Password\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 222.03125,
+            "width": 600,
+            "height": 31.78125
+          }
+        }
+      ],
+      "forms": [
+        {
+          "form_id": null,
+          "fields": [
+            {
+              "role": "textbox",
+              "accessible_name": "Username",
+              "input_type": "text"
+            },
+            {
+              "role": "textbox",
+              "accessible_name": "Password",
+              "input_type": "password"
+            }
+          ]
+        }
+      ],
+      "links": [
+        "/",
+        "/cart",
+        "/checkout"
+      ]
+    },
+    {
+      "url": "/",
+      "title": "Sign In \u2014 AegisShop",
+      "a11y_snapshot": "- text: APP_VERSION=v1\n- navigation:\n  - link \"Home\":\n    - /url: /\n  - link \"Cart\":\n    - /url: /cart\n  - link \"Checkout\":\n    - /url: /checkout\n- separator\n- heading \"Sign In\" [level=1]\n- text: Username\n- textbox \"Username\"\n- text: Password\n- textbox \"Password\"\n- button \"Sign In\"",
+      "interactive_elements": [
+        {
+          "role": "button",
+          "accessible_name": "Sign In",
+          "selector_hint": "role=button[name=\"Sign In\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 253.8125,
+            "width": 79.875,
+            "height": 31
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Home",
+          "selector_hint": "role=link[name=\"Home\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 32,
+            "width": 42.6875,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Cart",
+          "selector_hint": "role=link[name=\"Cart\"]",
+          "bounding_box": {
+            "x": 398.6875,
+            "y": 32,
+            "width": 30.234375,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Checkout",
+          "selector_hint": "role=link[name=\"Checkout\"]",
+          "bounding_box": {
+            "x": 444.921875,
+            "y": 32,
+            "width": 67.59375,
+            "height": 17
+          }
+        },
+        {
+          "role": "textbox",
+          "accessible_name": "Username",
+          "selector_hint": "role=textbox[name=\"Username\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 161.0625,
+            "width": 600,
+            "height": 31.78125
+          }
+        },
+        {
+          "role": "textbox",
+          "accessible_name": "Password",
+          "selector_hint": "role=textbox[name=\"Password\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 222.03125,
+            "width": 600,
+            "height": 31.78125
+          }
+        }
+      ],
+      "forms": [
+        {
+          "form_id": null,
+          "fields": [
+            {
+              "role": "textbox",
+              "accessible_name": "Username",
+              "input_type": "text"
+            },
+            {
+              "role": "textbox",
+              "accessible_name": "Password",
+              "input_type": "password"
+            }
+          ]
+        }
+      ],
+      "links": [
+        "/",
+        "/cart",
+        "/checkout"
+      ]
+    },
+    {
+      "url": "/cart",
+      "title": "Cart \u2014 AegisShop",
+      "a11y_snapshot": "- text: APP_VERSION=v1\n- navigation:\n  - link \"Home\":\n    - /url: /\n  - link \"Cart\":\n    - /url: /cart\n  - link \"Checkout\":\n    - /url: /checkout\n- separator\n- heading \"Your Cart\" [level=1]\n- list:\n  - listitem: Blue Widget \u00d7 2 \u2014 $19.99\n  - listitem: Red Gadget \u00d7 1 \u2014 $49.99\n- paragraph:\n  - strong: \"Total: $89.97\"\n- link \"Proceed to checkout\":\n  - /url: /checkout\n  - text: Proceed to Checkout \u2192",
+      "interactive_elements": [
+        {
+          "role": "link",
+          "accessible_name": "Home",
+          "selector_hint": "role=link[name=\"Home\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 32,
+            "width": 42.6875,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Cart",
+          "selector_hint": "role=link[name=\"Cart\"]",
+          "bounding_box": {
+            "x": 398.6875,
+            "y": 32,
+            "width": 30.234375,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Checkout",
+          "selector_hint": "role=link[name=\"Checkout\"]",
+          "bounding_box": {
+            "x": 444.921875,
+            "y": 32,
+            "width": 67.59375,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Proceed to checkout",
+          "selector_hint": "role=link[name=\"Proceed to checkout\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 225.875,
+            "width": 169.875,
+            "height": 17
+          }
+        }
+      ],
+      "forms": [],
+      "links": [
+        "/",
+        "/cart",
+        "/checkout"
+      ]
+    },
+    {
+      "url": "/checkout",
+      "title": "Checkout \u2014 AegisShop",
+      "a11y_snapshot": "- text: APP_VERSION=v1\n- navigation:\n  - link \"Home\":\n    - /url: /\n  - link \"Cart\":\n    - /url: /cart\n  - link \"Checkout\":\n    - /url: /checkout\n- separator\n- heading \"Checkout\" [level=1]\n- text: Card number\n- textbox \"Card number\":\n  - /placeholder: 4111 1111 1111 1111\n- text: Promo code\n- textbox \"Promo code\":\n  - /placeholder: Enter promo code\n- button \"Checkout\"",
+      "interactive_elements": [
+        {
+          "role": "button",
+          "accessible_name": "Checkout",
+          "selector_hint": "role=button[name=\"Checkout\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 253.8125,
+            "width": 94.703125,
+            "height": 31
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Home",
+          "selector_hint": "role=link[name=\"Home\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 32,
+            "width": 42.6875,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Cart",
+          "selector_hint": "role=link[name=\"Cart\"]",
+          "bounding_box": {
+            "x": 398.6875,
+            "y": 32,
+            "width": 30.234375,
+            "height": 17
+          }
+        },
+        {
+          "role": "link",
+          "accessible_name": "Checkout",
+          "selector_hint": "role=link[name=\"Checkout\"]",
+          "bounding_box": {
+            "x": 444.921875,
+            "y": 32,
+            "width": 67.59375,
+            "height": 17
+          }
+        },
+        {
+          "role": "textbox",
+          "accessible_name": "Card number",
+          "selector_hint": "role=textbox[name=\"Card number\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 161.0625,
+            "width": 600,
+            "height": 31.78125
+          }
+        },
+        {
+          "role": "textbox",
+          "accessible_name": "Promo code",
+          "selector_hint": "role=textbox[name=\"Promo code\"]",
+          "bounding_box": {
+            "x": 340,
+            "y": 222.03125,
+            "width": 600,
+            "height": 31.78125
+          }
+        }
+      ],
+      "forms": [
+        {
+          "form_id": "checkout-form",
+          "fields": [
+            {
+              "role": "textbox",
+              "accessible_name": "Card number",
+              "input_type": "text"
+            },
+            {
+              "role": "textbox",
+              "accessible_name": "Promo code",
+              "input_type": "text"
+            }
+          ]
+        }
+      ],
+      "links": [
+        "/",
+        "/cart",
+        "/checkout"
+      ]
+    }
+  ]
+}
