@@ -1,0 +1,35 @@
+ 
+ -------------- celery@Vineeths-MacBook-Air.local v5.4.0 (opalescent)
+--- ***** ----- 
+-- ******* ---- macOS-26.6.2-arm64-arm-64bit 2026-09-05 16:18:59
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autonomous_qa:0x109645e20
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 2 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.workers.tasks.execute_test_run
+
+[2026-09-05 16:18:59,258: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 16:18:59,263: INFO/MainProcess] Connected to redis://localhost:6379/1
+[2026-09-05 16:18:59,263: WARNING/MainProcess] /Users/vine/Desktop/nobelium_laurates/autonomous-qa/backend/.venv/lib/python3.12/site-packages/celery/worker/consumer/consumer.py:508: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2026-09-05 16:18:59,266: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-05 16:19:00,271: INFO/MainProcess] mingle: all alone
+[2026-09-05 16:19:00,282: INFO/MainProcess] celery@Vineeths-MacBook-Air.local ready.

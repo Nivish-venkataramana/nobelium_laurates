@@ -16,16 +16,24 @@ down_revision = None
 branch_labels = None
 depends_on = None
 
-run_status_enum = pg.ENUM(
+_RUN_STATUS_VALUES = (
     "CREATED", "QUEUED", "DISCOVERING", "PLANNING", "GENERATING", "VALIDATING",
     "EXECUTING", "ANALYZING", "HEALING", "RETESTING", "COMPLETED", "FAILED", "CANCELLED",
-    name="run_status",
 )
+run_status_enum = pg.ENUM(*_RUN_STATUS_VALUES, name="run_status", create_type=False)
 
 
 def upgrade() -> None:
-    bind = op.get_bind()
-    run_status_enum.create(bind, checkfirst=True)
+    # Use a DO block so Postgres handles IF NOT EXISTS atomically,
+    # which works correctly even inside a transactional DDL session.
+    op.execute(
+        "DO $$ BEGIN "
+        "  CREATE TYPE run_status AS ENUM ("
+        + ", ".join(f"'{v}'" for v in _RUN_STATUS_VALUES)
+        + "  ); "
+        "EXCEPTION WHEN duplicate_object THEN NULL; "
+        "END $$;"
+    )
 
     op.create_table(
         "projects",

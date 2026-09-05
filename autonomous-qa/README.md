@@ -106,17 +106,22 @@ autonomous-qa/
 ├── frontend/           React + TypeScript + Vite + Tailwind
 ├── demo-app/           Flask demo app (Login/Sign In toggle)
 ├── docs/               architecture, ai-system, self-healing, security, api
-├── docker-compose.yml
+├── Makefile
 └── Makefile
 ```
 
 ## Installation
 
-Requires Docker and Docker Compose. A Groq API key
-(https://console.groq.com) is required for AI test generation, failure
-analysis, and AI-assisted healing to work; without it, discovery and
-execution against manually-created test cases still work, but
-`run_generation` will fail with a clear error.
+**Prerequisites** (install via [Homebrew](https://brew.sh) if missing):
+
+```bash
+brew install python@3.12 node postgresql@16 redis
+```
+
+A Groq API key (https://console.groq.com) is required for AI test
+generation, failure analysis, and AI-assisted healing to work; without
+it, discovery and execution against manually-created test cases still
+work, but `run_generation` will fail with a clear error.
 
 ```bash
 git clone <this repo>
@@ -128,26 +133,46 @@ cp .env.example .env
 ## Starting the system
 
 ```bash
-make up
-# or: docker compose up -d --build
+./start.sh
 ```
 
-This starts: `postgres`, `redis`, `backend` (FastAPI, auto-runs Alembic
-migrations on boot), `worker` (Celery), `frontend` (Vite dev server),
-and `demo-app` (Flask).
+This script:
+1. Starts PostgreSQL and Redis via Homebrew (if not already running)
+2. Creates the `qa_user` role and `autonomous_qa` database if missing
+3. Creates a Python venv in `backend/.venv` and installs all deps
+4. Installs Playwright Chromium and frontend npm packages
+5. Runs Alembic migrations
+6. Launches backend, worker, frontend, and demo-app in the background
 
+Service URLs:
 - Frontend: http://localhost:5173
 - Backend API docs: http://localhost:8000/docs
 - Demo app: http://localhost:5050
 
+Logs are written to `./logs/{backend,worker,frontend,demo-app}.log`.
+
+## Stopping the system
+
+```bash
+./stop.sh
+```
+
+To also stop PostgreSQL and Redis:
+
+```bash
+brew services stop postgresql@16 redis
+```
+
+You can also use `make up` / `make down` for the same effect.
+
 ## Database migrations
 
-Migrations run automatically when the `backend` container starts. To
-run them manually:
+Migrations run automatically when `./start.sh` is executed. To run
+them manually:
 
 ```bash
 make migrate
-# or: docker compose exec backend alembic upgrade head
+# or: cd backend && ../.venv/bin/alembic upgrade head
 ```
 
 ## Running tests
@@ -157,13 +182,12 @@ make test-backend    # pytest app/tests/unit (fast, no external deps)
 make test-frontend   # vitest
 ```
 
-Integration and end-to-end tests need the full stack (Postgres, Redis,
-demo-app with `DEMO_MODE=true`) running - they are skipped automatically
-otherwise:
+Integration and end-to-end tests need the full stack running
+(`./start.sh`) with the demo-app in `DEMO_MODE=true`:
 
 ```bash
-docker compose exec backend pytest app/tests/integration -v
-docker compose exec backend pytest app/tests/e2e -v
+cd backend && ../.venv/bin/pytest app/tests/integration -v
+cd backend && ../.venv/bin/pytest app/tests/e2e -v
 ```
 
 ## Linting / type checking
@@ -178,8 +202,7 @@ make typecheck
 1. Open http://localhost:5173.
 2. **Projects** -> create a project.
 3. Inside the project, **add an application** pointing at
-   `http://demo-app:5050` (the Docker service name; use
-   `http://localhost:5050` if running the backend outside Docker).
+   `http://localhost:5050` (the demo-app address).
 4. Go to **Discovery**, select the application, and run discovery to see
    the extracted `ApplicationModel` (pages/elements/forms/workflows).
 5. From the application page, click **Discover + Generate + Run** to
