@@ -1,0 +1,9 @@
+{% extends "_base.html" %}
+{% block title %}Checkout - Demo Shop{% endblock %}
+{% block content %}
+  <h1>Checkout</h1>
+  <p>Total due: <strong>${{ "%.2f"|format(total) }}</strong></p>
+  <form method="post">
+    <button type="submit" data-testid="place-order-button">Place Order</button>
+  </form>
+{% endblock %}

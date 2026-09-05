@@ -1,0 +1,16 @@
+line-length = 100
+target-version = "py312"
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+# E501: line length handled by formatter, not a lint blocker.
+# UP042: (str, Enum) is kept over enum.StrEnum for Pydantic v2
+# compatibility and broader Python-version portability.
+ignore = ["E501", "UP042", "UP037"]
+
+[lint.per-file-ignores]
+"app/tests/**" = ["F401", "F811"]
+# FastAPI's idiomatic dependency-injection pattern relies on calling
+# Depends()/Header() in argument defaults; this is not the mutable-
+# default-argument bug B008 warns about.
+"app/api/routes/**" = ["B008"]

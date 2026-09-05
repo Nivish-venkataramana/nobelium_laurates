@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+{% block title %}Cart - Demo Shop{% endblock %}
+{% block content %}
+  <h1>Your Cart</h1>
+  {% if items %}
+    <ul>
+      {% for p in items %}<li>{{ p.name }} - ${{ "%.2f"|format(p.price) }}</li>{% endfor %}
+    </ul>
+    <p>Total: <strong data-testid="cart-total">${{ "%.2f"|format(total) }}</strong></p>
+    <a class="button" data-testid="checkout-button" href="{{ url_for('checkout') }}">Checkout</a>
+  {% else %}
+    <p>Your cart is empty.</p>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,118 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend-lint-typecheck:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: backend/requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Lint (ruff)
+        run: ruff check app --config ruff.toml
+      - name: Type check (mypy)
+        run: mypy app --config-file mypy.ini
+        continue-on-error: true # non-blocking until full type coverage lands
+
+  backend-unit-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      DATABASE_URL: postgresql+psycopg2://qa_user:qa_password@localhost:5432/autonomous_qa_test
+      GROQ_API_KEY: test-key-not-real
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: backend/requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: pytest app/tests/unit -v
+
+  backend-integration-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: qa_user
+          POSTGRES_PASSWORD: qa_password
+          POSTGRES_DB: autonomous_qa_test
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+    env:
+      DATABASE_URL: postgresql+psycopg2://qa_user:qa_password@localhost:5432/autonomous_qa_test
+      REDIS_URL: redis://localhost:6379/0
+      GROQ_API_KEY: test-key-not-real
+      ALLOW_PRIVATE_NETWORK_TARGETS: "true"
+      DEMO_APP_URL: http://localhost:5050
+      DEMO_MODE: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: backend/requirements.txt
+      - run: pip install -r requirements.txt
+      - run: playwright install --with-deps chromium
+      - run: alembic upgrade head
+      - name: Start demo app
+        working-directory: demo-app
+        run: |
+          pip install -r requirements.txt
+          DEMO_MODE=true LOGIN_LABEL=Login PORT=5050 python app.py &
+          sleep 2
+      - name: Integration tests
+        run: pytest app/tests/integration -v
+      - name: End-to-end self-healing test
+        run: pytest app/tests/e2e -v
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm install
+      - name: Lint
+        run: npm run lint
+        continue-on-error: true
+      - name: Type check
+        run: npm run typecheck
+      - name: Unit tests
+        run: npm run test
+      - name: Build
+        run: npm run build

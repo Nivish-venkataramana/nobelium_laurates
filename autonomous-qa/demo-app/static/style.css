@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; background: #f7f8fa; color: #1a1a2e; }
+.navbar { display: flex; gap: 1.25rem; align-items: center; padding: 1rem 2rem; background: #1a1a2e; }
+.navbar a { color: #f7f8fa; text-decoration: none; font-size: 0.95rem; }
+.navbar .brand { font-weight: 700; margin-right: auto; color: #7dd3fc; }
+.container { max-width: 720px; margin: 2.5rem auto; padding: 0 1.5rem; }
+h1 { color: #1a1a2e; }
+form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 360px; }
+input, textarea { padding: 0.6rem; border: 1px solid #d1d5db; border-radius: 6px; font-size: 1rem; }
+button, .button { display: inline-block; padding: 0.65rem 1.25rem; background: #4f46e5; color: white; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; text-decoration: none; width: fit-content; }
+button:hover, .button:hover { background: #4338ca; }
+.error { color: #dc2626; }
+.info { color: #059669; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.card { background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }

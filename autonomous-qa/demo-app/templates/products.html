@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+{% block title %}Products - Demo Shop{% endblock %}
+{% block content %}
+  <h1>Products</h1>
+  <div class="grid">
+    {% for p in products %}
+      <div class="card">
+        <h3>{{ p.name }}</h3>
+        <p>${{ "%.2f"|format(p.price) }}</p>
+        <a class="button" data-testid="add-to-cart-{{ p.id }}" href="{{ url_for('add_to_cart', product_id=p.id) }}">Add to Cart</a>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
